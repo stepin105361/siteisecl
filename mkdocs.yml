@@ -1,0 +1,163 @@
+# Repository
+repo_name: intel-secl
+repo_url: https://github.com/stepin105361/siteisecl
+site_name: Intel® SecL-DC
+plugins:
+  - search 
+  - mkdocs-nav-enhancements
+  - mike:
+      # these fields are all optional; the defaults are as below...
+      version_selector: true   # set to false to leave out the version selector
+      css_dir: css             # the directory to put the version selector's CSS
+      javascript_dir: js       # the directory to put the version selector's JS
+      canonical_version: null  # the version for <link rel="canonical">; `null`
+                               # uses the version specified via `mike deploy`
+
+
+nav: 
+  - Home:
+    - Intel® Security Libraries for Data Center (Intel® SecL-DC): index.md
+  - Quick Start Guide: 
+    - Foundational & Workload Security - Containerization:
+      - Hardware & OS Requirements: quick-start-guides/Foundational & Workload Security - Containerization/1Hardware & OS Requirements.md
+      - Network Requirements: quick-start-guides/Foundational & Workload Security - Containerization/2Network Requirements.md
+      - Rpms & Debs Requirement: quick-start-guides/Foundational & Workload Security - Containerization/3Rpms & Debs Requirement.md
+      - Deployment Model: quick-start-guides/Foundational & Workload Security - Containerization/4Deployment Model.md
+      - Build: quick-start-guides/Foundational & Workload Security - Containerization/5Build.md
+      - Deployment: quick-start-guides/Foundational & Workload Security - Containerization/6Deployment.md
+      - Default Service and Agent Mount Paths: quick-start-guides/Foundational & Workload Security - Containerization/7Default Service and Agent Mount Paths.md
+      - Default Service Ports: quick-start-guides/Foundational & Workload Security - Containerization/8Default Service Ports.md
+      - Usecase Workflows API Collections: quick-start-guides/Foundational & Workload Security - Containerization/9Usecase Workflows API Collections.md
+      - Appendix: quick-start-guides/Foundational & Workload Security - Containerization/10Appendix.md
+    - Foundational and Workload Security: 
+      - Hardware & OS Requirements: quick-start-guides/Foundational & Workload Security/1Hardware & OS Requirements.md
+      - Deployment Model: quick-start-guides/Foundational & Workload Security/2Deployment Model.md
+      - Build Services and packages: quick-start-guides/Foundational & Workload Security/3Build Services and packages.md
+      - Deployment: quick-start-guides/Foundational & Workload Security/4Deployment.md
+      - Usecase Workflows API Collections: quick-start-guides/Foundational & Workload Security/5Usecase Workflows API Collections.md
+      - Appendix: quick-start-guides/Foundational & Workload Security/6Appendix.md
+    - SGX Infrastructure - Containerization:
+      - Hardware & OS Requirements: quick-start-guides/SGX Infrastructure - Containerization/1Hardware & OS Requirements.md
+      - Network Requirements: quick-start-guides/SGX Infrastructure - Containerization/2Network Requirements.md
+      - RHEL RPMs Requirements: quick-start-guides/SGX Infrastructure - Containerization/3RHEL RPMs Requirements.md
+      - Deployment Model: quick-start-guides/SGX Infrastructure - Containerization/4Deployment Model.md
+      - Build: quick-start-guides/SGX Infrastructure - Containerization/5Build.md
+      - Deployment: quick-start-guides/SGX Infrastructure - Containerization/6Deployment.md
+      - Default Service and Agent Mount Paths: quick-start-guides/SGX Infrastructure - Containerization/7Default Service and Agent Mount Paths.md
+      - Default Service Ports: quick-start-guides/SGX Infrastructure - Containerization/8Default Service Ports.md
+      - Usecase Workflows API Collections: quick-start-guides/SGX Infrastructure - Containerization/9Usecase Workflows API Collections.md
+      - Appendix: quick-start-guides/SGX Infrastructure - Containerization/10Appendix.md
+    - SGX Infrastructure - RHEL:
+      - Hardware & OS Requirements: quick-start-guides/SGX Infrastructure - RHEL/1Hardware & OS Requirements.md
+      - Network Requirements: quick-start-guides/SGX Infrastructure - RHEL/2Network Requirements.md
+      - RHEL Package Requirements: quick-start-guides/SGX Infrastructure - RHEL/3RHEL Package Requirements.md
+      - Deployment Model: quick-start-guides/SGX Infrastructure - RHEL/4Deployment Model.md
+      - System Tools and Utilities: quick-start-guides/SGX Infrastructure - RHEL/5System Tools and Utilities.md
+      - Build Services, Libraries and Install packages: quick-start-guides/SGX Infrastructure - RHEL/6Build Services, Libraries and Install packages.md
+      - Deployment & Usecase Workflow Tools Installation: quick-start-guides/SGX Infrastructure - RHEL/7Deployment & Usecase Workflow Tools Installation.md
+      - Deployment: quick-start-guides/SGX Infrastructure - RHEL/8Deployment.md
+      - Usecase Workflows with Postman API Collections: quick-start-guides/SGX Infrastructure - RHEL/9Usecase Workflows with Postman API Collections.md
+      - System User Configuration: quick-start-guides/SGX Infrastructure - RHEL/10System User Configuration.md
+      - Appendix: quick-start-guides/SGX Infrastructure - RHEL/11Appendix.md
+    - SGX Infrastructure - Ubuntu:
+      - Hardware & OS Requirements: quick-start-guides/SGX Infrastructure - Ubuntu/1Hardware & OS Requirements.md
+      - Network Requirements: quick-start-guides/SGX Infrastructure - Ubuntu/2Network Requirements.md
+      - Ubuntu Package Requirements: quick-start-guides/SGX Infrastructure - Ubuntu/3Ubuntu Package Requirements.md
+      - Deployment Model: quick-start-guides/SGX Infrastructure - Ubuntu/4Deployment Model.md
+      - Ubuntu System Tools and Utilities: quick-start-guides/SGX Infrastructure - Ubuntu/5Ubuntu System Tools and Utilities.md
+      - Build Services, Libraries and Install packages: quick-start-guides/SGX Infrastructure - Ubuntu/6Build Services, Libraries and Install packages.md
+      - Deployment & Usecase Workflow Tools Installation: quick-start-guides/SGX Infrastructure - Ubuntu/7Deployment & Usecase Workflow Tools Installation.md
+      - Deployment: quick-start-guides/SGX Infrastructure - Ubuntu/8Deployment.md
+      - Usecase Workflows with Postman API Collections: quick-start-guides/SGX Infrastructure - Ubuntu/9Usecase Workflows with Postman API Collection.md
+      - System User Configuration: quick-start-guides/SGX Infrastructure - Ubuntu/10System User Configuration.md
+      - Appendix: quick-start-guides/SGX Infrastructure - Ubuntu/11Appendix.md    
+  - Product Guide: 
+      - Foundational and Workload Security:
+        -  Product Guide: product-guides/Foundational & Workload Security/01.md
+        -  Introduction: product-guides/Foundational & Workload Security/Introduction.md
+        -  Intel® Security Libraries Components: product-guides/Foundational & Workload Security/2Intel® Security Libraries Components.md
+        -  Intel® Security Libraries Container Deployment: product-guides/Foundational & Workload Security/25Intel® Security Libraries Container Deployment.md
+        -  Authentication: product-guides/Foundational & Workload Security/26Authentication.md
+        -  Connection Strings: product-guides/Foundational & Workload Security/27Connection Strings.md
+        -  Platform Integrity Attestation: product-guides/Foundational & Workload Security/28Platform Integrity Attestation.md
+        -  Workload Confidentiality: product-guides/Foundational & Workload Security/29Workload Confidentiality.md
+        -  Trusted Virtual Kubernetes Worker Nodes: product-guides/Foundational & Workload Security/30Trusted Virtual Kubernetes Worker Nodes.md
+        -  Flavor Management: product-guides/Foundational & Workload Security/31Flavor Management.md
+        -  Scalability and Sizing: product-guides/Foundational & Workload Security/32Scalability and Sizing.md
+        -  Intel Security Libraries Configuration Settings:
+            - Configuration Settings (Verification Services): product-guides/Foundational & Workload Security/33Intel Security Libraries Configuration Settings1.md
+            - Configuration Settings (Trust Agent): product-guides/Foundational & Workload Security/33Intel Security Libraries Configuration Settings2.md
+            - Configuration Settings (Integration Hub): product-guides/Foundational & Workload Security/33Intel Security Libraries Configuration Settings3.md
+            - Configuration Settings (Certificate Management Services): product-guides/Foundational & Workload Security/33Intel Security Libraries Configuration Settings4.md
+            - Configuration Settings (Authentication and Authorization Service): product-guides/Foundational & Workload Security/33Intel Security Libraries Configuration Settings5.md
+            - Configuration Settings (Workload Service): product-guides/Foundational & Workload Security/33Intel Security Libraries Configuration Settings6.md
+            - Configuration Settings (Key Broker Service): product-guides/Foundational & Workload Security/33Intel Security Libraries Configuration Settings7.md
+            - Configuration Settings (Workload Agent): product-guides/Foundational & Workload Security/33Intel Security Libraries Configuration Settings8.md
+            - Configuration Settings (Workload Policy Manager): product-guides/Foundational & Workload Security/33Intel Security Libraries Configuration Settings9.md
+        -  Certificate and Key Management: product-guides/Foundational & Workload Security/34Certificate and Key Management.md
+        -  Upgrades: product-guides/Foundational & Workload Security/35Upgrades.md
+        -  Appendix: product-guides/Foundational & Workload Security/36Appendix.md
+      - SGX Infrastructure:
+        -  Product Guide: product-guides/SGX Infrastructure/01.md
+        -  Introduction: product-guides/SGX Infrastructure/1Introduction.md
+        -  SGX Attestation Infrastructure and SKC Components: product-guides/SGX Infrastructure/2SGX Attestation Infrastructure and SKC Components.md
+        -  Intel® Security Libraries Installation: product-guides/SGX Infrastructure/3Intel® Security Libraries Installation.md
+        -  Authentication: product-guides/SGX Infrastructure/4Authentication.md
+        -  SGX Features Provisioning: product-guides/SGX Infrastructure/5SGX Features Provisioning.md
+        -  Setup Task Flows for K8s Deployments: product-guides/SGX Infrastructure/6Setup Task Flows for K8s Deployments.md
+        -  Configuration Update Flows for K8s Deployments: product-guides/SGX Infrastructure/7Configuration Update Flows for K8s Deployments.md
+        -  Intel Security Libraries Configuration Settings: product-guides/SGX Infrastructure/8Intel Security Libraries Configuration Settings.md
+        -  Uninstallation: product-guides/SGX Infrastructure/9Uninstallation.md
+        -  Binary Upgrades: product-guides/SGX Infrastructure/10Binary Upgrades.md
+        -  Container Upgrades: product-guides/SGX Infrastructure/11Container Upgrades.md
+        -  Appendix: product-guides/SGX Infrastructure/12Appendix.md
+        -  KBS key-transfer flow validation: product-guides/SGX Infrastructure/13KBS key-transfer flow validation.md
+        -  Note on Key Transfer Policy: product-guides/SGX Infrastructure/14Note on Key Transfer Policy.md
+        -  Note on SKC Library Deployment: product-guides/SGX Infrastructure/15Note on SKC Library Deployment.md
+  - Supplementary Guide:
+      - Common Cluster Deployment:
+        - Pre-requisites: supplementary-guides/Common Cluster Deployment Guide/1Pre-requisites.md
+        - Deployment Architecture: supplementary-guides/Common Cluster Deployment Guide/2Deployment Architecture.md
+        - Deployment Steps: supplementary-guides/Common Cluster Deployment Guide/3Deployment Steps.md
+        - Workload POD Launch Validation: supplementary-guides/Common Cluster Deployment Guide/4Workload POD Launch Validation.md
+theme:
+   name: material
+   font: 
+     code: Fira Code
+     text: Helvetica               
+   palette:
+    - scheme: default
+      primary: light blue
+      accent: amber
+      toggle:
+        icon: material/weather-sunny 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+        
+   logo: images/isecl-logo.png
+   favicon: images/isecl-logo.png
+   icon:
+    repo: fontawesome/brands/github
+   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.smartsymbols
+  - pymdownx.magiclink
+  - markdown.extensions.tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  version:
+    provider: mike
