@@ -2,6 +2,8 @@
 
 ## Physical Server requirements
 
+NOTICE : You are viewing a dummy version of the 4.0 doc here made as a copy for demonstration of a differet version presence.
+
 * Intel® SecL-DC  supports and uses a variety of Intel security features, but there are some key requirements to consider before beginning an installation. Most important among these is the Root of Trust configuration. This involves deciding what combination of TXT, Boot Guard, tboot, and UEFI Secure Boot to enable on platforms that will be attested using Intel® SecL.
 
 ???+ note 
